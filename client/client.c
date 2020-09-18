@@ -10,6 +10,7 @@
 int clientport=8080;
 char mssg[100];
 char format[100];
+int z=0;
 int main(int argc, char const *argv[]) {
     //details to connect the socket and port
     struct sockaddr_in clientconnection;
